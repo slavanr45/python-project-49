@@ -2,7 +2,10 @@ install:
 	poetry install
 
 brain-games:
-	poetry run python -m brain_games.scripts.brain_games
+	poetry run brain-games
+
+brain-even:
+	poetry run brain-even
 
 build:
 	poetry build
