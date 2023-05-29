@@ -1,5 +1,5 @@
 import prompt
-from brain_games.games import calc, even, gcd, progression
+from brain_games.games import calc, even, gcd, progression, prime
 
 
 def welcome_user(number_of_game):
@@ -20,6 +20,8 @@ def main(name, number_of_game):
                 answer, res = gcd.game()
             case 4:
                 answer, res = progression.game()
+            case 5:
+                answer, res = prime.game()
         if answer != res:
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{res}'.")
             print(f"Let's try again, {name}!")
@@ -32,4 +34,4 @@ def main(name, number_of_game):
 
 
 if __name__ == '__main__':
-    main(name='Default', number_of_game=1)
+    main(name='John Doe', number_of_game=1)
