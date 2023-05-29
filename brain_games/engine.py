@@ -1,5 +1,5 @@
 import prompt
-from brain_games.games import calc, even, gcd
+from brain_games.games import calc, even, gcd, progression
 
 
 def welcome_user(number_of_game):
@@ -18,6 +18,8 @@ def main(name, number_of_game):
                 answer, res = calc.game()
             case 3:
                 answer, res = gcd.game()
+            case 4:
+                answer, res = progression.game()
         if answer != res:
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{res}'.")
             print(f"Let's try again, {name}!")
