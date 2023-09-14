@@ -3,5 +3,12 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/b1503dc655d159cdcee2/maintainability)](https://codeclimate.com/github/slavanr45/python-project-49/maintainability)
 
-### asciinema. Game rules:
-[![asciicast](https://asciinema.org/a/0KvEFu44PDa8pRpiakb2p9H8R.svg)](https://asciinema.org/a/0KvEFu44PDa8pRpiakb2p9H8R)
+### How to install package with Makefile:
+make package-install
+### Full command to install package:
+python3 -m pip install --user dist/*.whl
+
+
+### Five text games inside.
+### Game rules in asciinema:
+[![asciicast](https://asciinema.org/a/pFEvOf4g8IbrRYeAd3d41iUzV.svg)](https://asciinema.org/a/pFEvOf4g8IbrRYeAd3d41iUzV)
