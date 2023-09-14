@@ -1,5 +1,7 @@
-## First hexlet project:
-### Five text games inside.
+# First hexlet project
+
+## Description: Five text games inside.
+
 
 ### result tests and linter status:
 [![Actions Status](https://github.com/slavanr45/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/slavanr45/python-project-49/actions)
@@ -11,6 +13,7 @@
 make package-install
 ### with full command to install package:
 python3 -m pip install --user dist/*.whl
+
 
 ## Asciinema:
 ### Game rules
