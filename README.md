@@ -3,9 +3,10 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/b1503dc655d159cdcee2/maintainability)](https://codeclimate.com/github/slavanr45/python-project-49/maintainability)
 
 ## How to install package 
-### with Makefile:
+with Makefile: 
 make package-install
-### with full command to install package:
+
+with full command:
 python3 -m pip install --user dist/*.whl
 
 ## Description: Five text games inside.
