@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-from brain_games.cli import welcome_user
+from brain_games.games import calc
+from brain_games.engine import start_game
 
 
 def main():
-    welcome_user(2)
+    start_game(calc)
 
 
 if __name__ == '__main__':
