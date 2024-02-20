@@ -1,14 +1,7 @@
-import prompt
 from brain_games.games import calc, even, gcd, progression, prime
 
 
-def welcome_user(number_of_game):
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
-    main(name, number_of_game)
-
-
-def main(name, number_of_game):
+def start_game(name, number_of_game):
     counter_games = 0
     while counter_games < 3:
         match number_of_game:
@@ -34,4 +27,4 @@ def main(name, number_of_game):
 
 
 if __name__ == '__main__':
-    main(name='John Doe', number_of_game=1)
+    start_game(name='John Doe', number_of_game=1)
